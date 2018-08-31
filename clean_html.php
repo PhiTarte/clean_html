@@ -34,11 +34,15 @@ function mfp_clean_html()
 	// search the duplicate Id and modify them
 
 	// making an array that will be filled with the id of elements
-	//const idArray=[]
+	const idArray=[]
 	// push the value of the Id of the element if not in an array of Id
-	/*for (let element of document) {
+	const documentArray=Array.from(document)
+	for (let element of documentArray) {
 		if (!idArray.includes(element.getAttribute('id'))) {
 			idArray[element.getAttribute('id')]=1	// first entry of the key element.getAttribute('id')
+		}
+		else {
+			idArray[element.getAttribute('id')]+=1
 		}
 	}*/
 	// increment of counter if already exist
