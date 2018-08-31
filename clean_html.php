@@ -45,6 +45,7 @@ function mfp_clean_html()
 			idArray[element.getAttribute('id')]+=1
 		}
 	}
+	console.log(idArray)
 	// increment of counter if already exist
 	// for all counter >1
 	// modify the Id
