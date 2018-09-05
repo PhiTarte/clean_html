@@ -1,8 +1,8 @@
 <?php
 /*
 Plugin Name: clean_html
-Plugin URI: https://mon-siteweb.com/
-Description: Nettoyer le html afin de valider auprès de W3C
+Plugin URI: https://github.com/PhiTarte/clean_html
+Description: Nettoyer le html afin de valider aupres de W3C
 Author: Adjan Consulting
 Version: 1.0
 Author URI: https://adjanconsulting.com
