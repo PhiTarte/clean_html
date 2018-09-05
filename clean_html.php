@@ -30,27 +30,5 @@ function mfp_clean_html()
 	for (let style of styleTags) {
 		style.removeAttribute('type')
 	}
-
-	// search the duplicate Id and modify them
-
-	// making an array that will be filled with the id of elements
-	const idArray=[]
-	// push the value of the Id of the element if not in an array of Id
-	const documentArray=Array.from(document)
-	for (let element of documentArray) {
-		if (!idArray.includes(element.getAttribute('id'))) {
-			idArray[element.getAttribute('id')]=1	// first entry of the key element.getAttribute('id')
-		}
-		else {
-			idArray[element.getAttribute('id')]+=1
-		}
-	}
-	console.log(idArray)
-	// increment of counter if already exist
-	// for all counter >1
-	// modify the Id
-	//
-
-	//}
 </script>";
 }
